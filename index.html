@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NEON REBELS - Official Website. Rock/Alternative band from Los Angeles. Listen to our music, check tour dates, and get merch.">
+    <meta name="keywords" content="band, music, rock, alternative, live music, concerts, NEON REBELS">
+    <title>NEON REBELS - Official Website</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">NEON REBELS</a>
+            </div>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#music" class="nav-link">Music</a></li>
+                <li class="nav-item"><a href="#videos" class="nav-link">Videos</a></li>
+                <li class="nav-item"><a href="#tour" class="nav-link">Tour</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="#merch" class="nav-link">Merch</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <!-- Hero background image -->
+        <div class="hero-background" style="background: url('https://images.unsplash.com/photo-1501386761578-eac5c94b800a?q=80&w=2000&auto=format&fit=crop') center/cover no-repeat; position: absolute; width: 100%; height: 100%; top: 0; left: 0; z-index: -2;"></div>
+        <div class="hero-content">
+            <h1 class="hero-title glitch" data-text="NEON REBELS">NEON REBELS</h1>
+            <p class="hero-tagline">Electrifying Rock from the Underground</p>
+            <div class="hero-buttons">
+                <a href="#music" class="btn btn-primary">Listen Now</a>
+                <a href="#tour" class="btn btn-secondary">Tour Dates</a>
+            </div>
+            <div class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-dark">
+        <div class="container">
+            <h2 class="section-title">About the Band</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead">Born from the gritty streets of Los Angeles, NEON REBELS delivers raw, unfiltered rock that hits you in the gut.</p>
+                    <p>Since forming in 2019, we've been on a mission to resurrect the spirit of authentic rock music. Our sound blends heavy riffs, pounding drums, and lyrics that speak to the chaos and beauty of modern life.</p>
+                    <p>Influenced by legends like Queens of the Stone Age, Royal Blood, and Death From Above 1979, we've carved out our own unique sound that's earned us a devoted following in the underground scene.</p>
+                    <p><strong>The Rebels:</strong> Jake "Voltage" Carter (Vocals/Guitar), Maya "Storm" Rodriguez (Bass), Alex "Thunder" Chen (Drums), and Sam "Neon" Williams (Lead Guitar)</p>
+                    <div class="band-stats">
+                        <div class="stat">
+                            <span class="stat-number">3</span>
+                            <span class="stat-label">Albums</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">247</span>
+                            <span class="stat-label">Shows</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">75K</span>
+                            <span class="stat-label">Fans</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=600&fit=crop" alt="NEON REBELS Band Photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Music Section -->
+    <section id="music" class="section-red">
+        <div class="container">
+            <h2 class="section-title">Music</h2>
+            <div class="music-players">
+                <!-- Spotify Embed -->
+                <div class="music-platform">
+                    <h3>Latest Album on Spotify</h3>
+                    <iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" 
+                            width="100%" 
+                            height="380" 
+                            frameBorder="0" 
+                            allowtransparency="true" 
+                            allow="encrypted-media">
+                    </iframe>
+                </div>
+                
+                <!-- Album Display -->
+                <div class="albums-grid">
+                    <div class="album-card">
+                        <img src="https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?w=500&h=500&fit=crop" alt="Chaos Theory Album">
+                        <h4>Chaos Theory</h4>
+                        <p>2024</p>
+                        <a href="#" class="btn-small">Stream</a>
+                    </div>
+                    <div class="album-card">
+                        <img src="https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?w=500&h=500&fit=crop" alt="Neon Nights Album">
+                        <h4>Neon Nights</h4>
+                        <p>2022</p>
+                        <a href="#" class="btn-small">Stream</a>
+                    </div>
+                    <div class="album-card">
+                        <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=500&h=500&fit=crop" alt="First Blood Album">
+                        <h4>First Blood</h4>
+                        <p>2020</p>
+                        <a href="#" class="btn-small">Stream</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos" class="section-dark">
+        <div class="container">
+            <h2 class="section-title">Videos</h2>
+            <div class="videos-grid">
+                <div class="video-item">
+                    <div class="video-placeholder" style="position: relative; width: 100%; height: 315px; background: url('https://images.unsplash.com/photo-1598387993441-a364f854c3e1?w=800&h=450&fit=crop') center/cover; border-radius: 5px; overflow: hidden;">
+                        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80px; height: 80px; background: rgba(0,0,0,0.7); border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.3s;">
+                            <i class="fas fa-play" style="color: white; font-size: 30px; margin-left: 5px;"></i>
+                        </div>
+                    </div>
+                    <h4>Latest Music Video - "Electric Dreams"</h4>
+                </div>
+                <div class="video-item">
+                    <div class="video-placeholder" style="position: relative; width: 100%; height: 315px; background: url('https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&h=450&fit=crop') center/cover; border-radius: 5px; overflow: hidden;">
+                        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80px; height: 80px; background: rgba(0,0,0,0.7); border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.3s;">
+                            <i class="fas fa-play" style="color: white; font-size: 30px; margin-left: 5px;"></i>
+                        </div>
+                    </div>
+                    <h4>Live at The Troubadour</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tour Section -->
+    <section id="tour" class="section-gradient">
+        <div class="container">
+            <h2 class="section-title">Tour Dates</h2>
+            <div class="tour-list">
+                <div class="tour-item">
+                    <div class="tour-date">
+                        <span class="day">15</span>
+                        <span class="month">MAR</span>
+                    </div>
+                    <div class="tour-info">
+                        <h4>The Viper Room</h4>
+                        <p>Los Angeles, CA</p>
+                    </div>
+                    <div class="tour-action">
+                        <a href="#" class="btn-ticket">Get Tickets</a>
+                    </div>
+                </div>
+                <div class="tour-item">
+                    <div class="tour-date">
+                        <span class="day">22</span>
+                        <span class="month">MAR</span>
+                    </div>
+                    <div class="tour-info">
+                        <h4>The Fillmore</h4>
+                        <p>San Francisco, CA</p>
+                    </div>
+                    <div class="tour-action">
+                        <a href="#" class="btn-ticket">Get Tickets</a>
+                    </div>
+                </div>
+                <div class="tour-item">
+                    <div class="tour-date">
+                        <span class="day">05</span>
+                        <span class="month">APR</span>
+                    </div>
+                    <div class="tour-info">
+                        <h4>First Avenue</h4>
+                        <p>Minneapolis, MN</p>
+                    </div>
+                    <div class="tour-action">
+                        <a href="#" class="btn-ticket">Get Tickets</a>
+                    </div>
+                </div>
+                <div class="tour-item sold-out">
+                    <div class="tour-date">
+                        <span class="day">12</span>
+                        <span class="month">APR</span>
+                    </div>
+                    <div class="tour-info">
+                        <h4>Metro</h4>
+                        <p>Chicago, IL</p>
+                    </div>
+                    <div class="tour-action">
+                        <span class="btn-soldout">Sold Out</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section-dark">
+        <div class="container">
+            <h2 class="section-title">Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?w=800&h=600&fit=crop" alt="Band Performance">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=800&h=600&fit=crop" alt="Band Performance">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=800&h=600&fit=crop" alt="Band Performance">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?w=800&h=600&fit=crop" alt="Band Performance">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1501612780327-45045538702b?w=800&h=600&fit=crop" alt="Band Performance">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&h=600&fit=crop" alt="Band Performance">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Merch Section -->
+    <section id="merch" class="section-red">
+        <div class="container">
+            <h2 class="section-title">Merch Store</h2>
+            <div class="merch-grid">
+                <div class="merch-item">
+                    <div class="merch-image">
+                        <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400&h=400&fit=crop" alt="Band T-Shirt">
+                        <div class="merch-badge">New</div>
+                    </div>
+                    <h4>Neon Rebels Tour Tee</h4>
+                    <p class="merch-price">$25</p>
+                    <a href="#" class="btn-buy">Add to Cart</a>
+                </div>
+                <div class="merch-item">
+                    <div class="merch-image">
+                        <img src="https://images.unsplash.com/photo-1539375665275-f9de415ef9ac?w=400&h=400&fit=crop" alt="Vinyl Record">
+                    </div>
+                    <h4>Chaos Theory Vinyl</h4>
+                    <p class="merch-price">$35</p>
+                    <a href="#" class="btn-buy">Add to Cart</a>
+                </div>
+                <div class="merch-item">
+                    <div class="merch-image">
+                        <img src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400&h=400&fit=crop" alt="Band Hoodie">
+                    </div>
+                    <h4>Rebels Logo Hoodie</h4>
+                    <p class="merch-price">$45</p>
+                    <a href="#" class="btn-buy">Add to Cart</a>
+                </div>
+                <div class="merch-item">
+                    <div class="merch-image">
+                        <img src="https://images.unsplash.com/photo-1549366021-9f761d450615?w=400&h=400&fit=crop" alt="Band Poster">
+                        <div class="merch-badge">Limited</div>
+                    </div>
+                    <h4>2024 Tour Poster (Signed)</h4>
+                    <p class="merch-price">$20</p>
+                    <a href="#" class="btn-buy">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-dark">
+        <div class="container">
+            <h2 class="section-title">Contact & Booking</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="subject" name="subject" required>
+                                <option value="">Select Inquiry Type</option>
+                                <option value="booking">Booking Request</option>
+                                <option value="press">Press Inquiry</option>
+                                <option value="general">General Contact</option>
+                                <option value="collaboration">Collaboration</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>For booking inquiries, press requests, or just to say hey!</p>
+                    <div class="contact-details">
+                        <p><i class="fas fa-envelope"></i> booking@neonrebels.com</p>
+                        <p><i class="fas fa-phone"></i> +1 (323) 555-ROCK</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Los Angeles, CA</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://facebook.com/neonrebelsband" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://instagram.com/neonrebels" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/neonrebels" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://youtube.com/@neonrebels" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://open.spotify.com/artist/neonrebels" aria-label="Spotify"><i class="fab fa-spotify"></i></a>
+                        <a href="https://music.apple.com/neonrebels" aria-label="Apple Music"><i class="fab fa-apple"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 NEON REBELS. All rights reserved.</p>
+            <p>Website by Rebel Studios</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox for Gallery -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
